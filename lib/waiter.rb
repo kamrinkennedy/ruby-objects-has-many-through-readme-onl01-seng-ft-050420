@@ -3,8 +3,8 @@ class Waiter
   @@all = []
   
   def initialize(name, yrs_experience)
-    self.name = name 
-    self.yrs_experience = yrs_experience
+    @name = name 
+    @yrs_experience = yrs_experience
   end
   
   
