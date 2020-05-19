@@ -3,8 +3,8 @@ class Customer
   @@all = []
   
   def initialize(name, age) 
-    self.name = name 
-    self.age = age 
+    @name = name 
+    @age = age 
     @@all << self
   end 
   
